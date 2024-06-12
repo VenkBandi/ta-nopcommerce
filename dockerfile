@@ -24,3 +24,4 @@ RUN groupadd -r chrome && useradd -r -g chrome -G audio,video chrome && \
 USER chrome
 # set display port to avoid crash
 ENV DISPLAY=:99
+
